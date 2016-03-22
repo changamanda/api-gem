@@ -5,4 +5,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/bandsintown.rb"]
   s.summary     = "Bands In Town"
   s.authors     = ["BandsInTown"]
+  s.files    = Dir['lib/*.rb'] + Dir['lib/bandsintown/*.rb']
 end
